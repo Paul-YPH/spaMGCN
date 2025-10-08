@@ -13,7 +13,9 @@ from spamgcn.utils.misc import *
 import os
 import numpy as np
 import random
-from train.utils import clustering
+#from train.utils import clustering
+from spamgcn.train.utils import clustering
+
 # Calculate InfoNCE-like loss. Considering spatial neighbors as positive pairs for each spot
 def Noise_Cross_Entropy(emb, adj):
     sim = cosine_sim_tensor(emb)
