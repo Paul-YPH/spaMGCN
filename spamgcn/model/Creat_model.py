@@ -1,7 +1,7 @@
-from model.AE import AE
-from model.IGAE import IGAE
-from model.spaMGCN import spaMGCN
-from model.spaMGCN_ZINB import spaMGCN_ZINB
+from spamgcn.model.AE
+from spamgcn.model.IGAE import IGAE
+from spamgcn.model.spaMGCN import spaMGCN
+from spamgcn.model.spaMGCN_ZINB import spaMGCN_ZINB
 def creat_model(model_name, args):
     model = None
     if model_name =='ae':
