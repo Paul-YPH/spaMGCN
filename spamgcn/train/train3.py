@@ -8,7 +8,7 @@ from sklearn.cluster import KMeans
 import community as louvain  
 from scipy.cluster.hierarchy import linkage, fcluster  
 from sklearn.metrics import pairwise_distances   
-#from utils.misc import *
+# from utils.misc import *
 from spamgcn.utils.misc import *
 import os
 import numpy as np
