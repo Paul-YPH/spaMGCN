@@ -1,4 +1,4 @@
-from spamgcn.model.AE
+from spamgcn.model import AE
 from spamgcn.model.IGAE import IGAE
 from spamgcn.model.spaMGCN import spaMGCN
 from spamgcn.model.spaMGCN_ZINB import spaMGCN_ZINB
