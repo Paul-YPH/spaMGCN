@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="spaMGCN",
-    version="77dfe67",
+    version="0.0.1",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
