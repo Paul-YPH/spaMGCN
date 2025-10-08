@@ -1,8 +1,8 @@
 import torch
 from torch import nn
 import torch.nn.functional as F
-from model.AE import AE
-from model.IGAE import IGAE
+from spamgcn.model.AE import AE
+from spamgcn.model.IGAE import IGAE
 from torch.nn.parameter import Parameter
 class spaMGCN(nn.Module):
 
